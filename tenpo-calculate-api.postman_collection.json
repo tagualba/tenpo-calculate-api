@@ -1,0 +1,652 @@
+{
+	"info": {
+		"_postman_id": "158016a5-fa09-4ec5-99bc-655518e56eca",
+		"name": "tenpo-calculate-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SingUp",
+			"item": [
+				{
+					"name": "createUser",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser - Error Name",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser - Error Emai",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser - Error Pass",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser - Error all",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser - Error Email Regex",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser - Error Pass Regex Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createUser - Error Email Repeat",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login - Error email invalid",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login - Error email not registry",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login - Error bad password",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "channel",
+								"value": "110",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"tagualba\",\n    \"email\":\"tomialba@gmail.com\",\n    \"password\":\"Hola.4481\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/tenpo/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Calculate",
+			"item": [
+				{
+					"name": "Calculate",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "tokenApiKeya",
+								"value": "a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/tenpo/calculate?valueA=10&valueB=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"calculate"
+							],
+							"query": [
+								{
+									"key": "valueA",
+									"value": "10"
+								},
+								{
+									"key": "valueB",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Calculate - Error valueA null",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "tokenApiKeya",
+								"value": "a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/tenpo/calculate?valueA=10&valueB=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"calculate"
+							],
+							"query": [
+								{
+									"key": "valueA",
+									"value": "10"
+								},
+								{
+									"key": "valueB",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Calculate - Error valueB null",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "tokenApiKeya",
+								"value": "a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/tenpo/calculate?valueA=10&valueB=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"calculate"
+							],
+							"query": [
+								{
+									"key": "valueA",
+									"value": "10"
+								},
+								{
+									"key": "valueB",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Calculate - Error token invalid",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "tokenApiKeya",
+								"value": "a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/tenpo/calculate?valueA=10&valueB=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"calculate"
+							],
+							"query": [
+								{
+									"key": "valueA",
+									"value": "10"
+								},
+								{
+									"key": "valueB",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "History",
+			"item": [
+				{
+					"name": "History - all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "tokenApiKeya",
+								"value": "a",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/tenpo/calculate?valueA=10&valueB=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tenpo",
+								"calculate"
+							],
+							"query": [
+								{
+									"key": "valueA",
+									"value": "10"
+								},
+								{
+									"key": "valueB",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "History - getPage",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "History - get operation",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "History - get operation and page",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "History - empty",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "History - Invalid Token",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
